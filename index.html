@@ -1,77 +1,137 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html>
+	<head>
+	<style type="text/css">
 
-  <title>Hunter-Dolan/Maxiis-Design @ GitHub</title>
+	body {
+		background-color: #f8f8f8;
+		padding: 0px;
+		margin: 0px;
+	}
 
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #51bbab;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #ae4454; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #ae4454; }
-    h3 { text-align: center; color: #ae4454; }
-    a { color: #ae4454; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
+	.container {
+		width: 900px;
+		margin-left: -450px;
+		left: 50%;
+		position: relative;
+	}
 
-<body>
-  <a href="http://github.com/Hunter-Dolan/Maxiis-Design"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+	#header {
+		border-top-color: #ff3c3c;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-bottom-style: solid;
+		border-bottom-color: #980000;
+		border-bottom-width: 1px;
+		width: 100%;
+		background-color: #d60002;
+		height: 50px;
+		font-family: Helvetica, Verdana, Arial, sans-serif;
+	}
 
-  <div id="container">
+	#header #logo {
+		float: left;
+		padding-top: 5px;
+		text-align: left;
+		font-variant: normal;
+		text-shadow: 0px 2px 2px #980101;
+		font-family: "Droid Sans";
+		font-size: 35px;
+		color: white;
+	}
 
-    <div class="download">
-      <a href="http://github.com/Hunter-Dolan/Maxiis-Design/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/Hunter-Dolan/Maxiis-Design/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
+	#header #logo a {
+		color:#FFF;
+		text-decoration: none;
+	}
 
-    <h1><a href="http://github.com/Hunter-Dolan/Maxiis-Design">Maxiis-Design</a>
-      <span class="small">by <a href="http://github.com/Hunter-Dolan">Hunter-Dolan</a></span></h1>
+	#header #nav {
+		position:relative;
+		top:15px;
+		left:20px;
+		padding-top: 5px;
+		text-align: left;
+		font-variant: normal;
+		text-shadow: 0px 2px 2px #980101;
+		font-family: "Droid Sans";
+		font-size: 15px;
+		color: white;
+	}
 
-    <div class="description">
-      Don't copy me!
-    </div>
+	#header #nav a {
+		padding-left: 15px;
+		color: white;
+		text-decoration: none;
+	}
 
-    <h2>Authors</h2>
-<p>Hunter Dolan (hunterhdolan@gmail.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>Hunter Dolan (hunterhdolan@gmail.com)<br/>      </p>
+	#header #nav a:hover {
+		text-decoration: underline;
+	}
 
+	.left {
+		float: left;
+		text-align: left;
+	}
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/Hunter-Dolan/Maxiis-Design/zipball/master">zip</a> or
-      <a href="http://github.com/Hunter-Dolan/Maxiis-Design/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/Hunter-Dolan/Maxiis-Design</pre>
-    </p>
+	.right {
+		float: right;
+		text-align: right;
+	}
 
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/Hunter-Dolan/Maxiis-Design">Hunter-Dolan/Maxiis-Design</a>
-    </div>
+	#footer {
+	}
 
-  </div>
+	#footer .container {
+		text-shadow: 0px 2px 2px #fcffff;
+		border-left-width: 1px;
+		border-bottom-width: 0px;
+		border-right-width: 1px;
+		border-top-width: 1px;
+		border-style: solid;
+		border-color: #dddddd;
+		padding-left: 5px;
+		padding-bottom: 10px;
+		padding-right: 5px;
+		padding-top: 5px;
+		background-color: #d6d6d6;
+		position: absolute;
+		bottom: 0px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-radius-topleft: 5px;
+		-moz-border-radius-topright: 5px;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	#copyright {
+		font-size: 13px;
+		bottom: 0px;
+		font-family: "Droid Sans";
+	}
+	#number {
+		font-size: 13px;
+		bottom: 0px;
+		font-family: "Droid Sans";
+	}
+	</style>
+		<title></title>
+	</head>
+	<body>
+		<div id="header">
+			<div class="container">
+				<div id="logo"><a href="/">Maxiis</a></div>
+				<div id="nav" class="left"><a href="#">Home</a><a href="#">About</a><a href="#">Links</a><a href="#">Products</a><a href="#">Contact Us</a></div>		
+				<div id="nav" class="right"><a href="#">Customer Portal</a></div>
+			</div>
+		</div>
 
-  
-</body>
+		<div id="body">
+		</div>
+
+		<div id="footer">
+			<div class="container">
+				<span id="copyright">Copyright &#169; Maxiis - Maxcom - D-Max inc.</span>
+				<span id="number" class="right">1 (815) 452-2804 </span>
+			</div>
+		</div>
+	</body>
 </html>
